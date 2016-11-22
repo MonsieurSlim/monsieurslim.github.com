@@ -8,3 +8,23 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+.rvmrc
+# Ignore bundler config
+/coverage
+.powrc
+/app/assets/.DS_Store
+/db/.DS_Store
+/.bundle
+/.DS_Store
+/public/system
+/public/uploads
+# Ignore the default SQLite database.
+/db/*.sqlite3
+**/db/*.sqlite3*
+# Ignore all logfiles and tempfiles.
+/tmp
+**/log/*.log
+.idea/
+# Ignore application configuration
+/config/application.yml
+
